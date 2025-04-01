@@ -33,7 +33,7 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v4.6.0
       with:
-        name: vb6-executable
+        name: build-artifact
         path: C:\actions-runner-vb6\_work\cicd_vb6\cicd_vb6\Project1.exe
 
         
