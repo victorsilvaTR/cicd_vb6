@@ -23,11 +23,11 @@ jobs:
       uses: actions/checkout@v4
       with:
         #repository: https://github.com/victorsilvaTR/cicd_vb6
-        path: 'C:\actions-runner-vb6\_work\victorsilvaTR\cicd_vb6\victorsilvaTR\cicd_vb6'
+        path: 'C:\actions-runner-vb6\_work\cicd_vb6\cicd_vb6'
 
     - name: Build
       run: |
-        cd C:\actions-runner\_work\victorsilvaTR\cicd_vb6\victorsilvaTR\cicd_vb6
+        cd C:\actions-runner-vb6\_work\cicd_vb6\cicd_vb6
         & "C:\Program Files (x86)\Microsoft Visual Studio\VB98\VB6.EXE" /make "Project1.vbp" /out "log.txt"
 
     - name: Upload artifacts
