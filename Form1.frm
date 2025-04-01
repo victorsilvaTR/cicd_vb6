@@ -10,7 +10,6 @@ Begin VB.Form Form1
    ScaleWidth      =   4560
    StartUpPosition =   3  'Windows Default
    Begin VB.Label lblVersion 
-      Caption         =   "V0"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   30
@@ -34,4 +33,8 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub Label1_Click()
 
+End Sub
+
+Private Sub Form_Load()
+    lblVersion.Caption = "V1"
 End Sub
