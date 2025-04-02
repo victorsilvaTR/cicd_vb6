@@ -36,5 +36,5 @@ Private Sub Label1_Click()
 End Sub
 
 Private Sub Form_Load()
-    lblVersion.Caption = "V1"
+    lblVersion.Caption = "OK"
 End Sub
